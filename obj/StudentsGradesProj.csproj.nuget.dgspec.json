@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj": {}
+    "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj": {}
   },
   "projects": {
-    "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj": {
+    "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
+        "projectUniqueName": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
         "projectName": "StudentsGradesProj",
-        "projectPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
+        "projectPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
         "packagesPath": "C:\\Users\\h.sabour\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\obj\\",
+        "outputPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\h.sabour\\AppData\\Roaming\\NuGet\\NuGet.Config",
