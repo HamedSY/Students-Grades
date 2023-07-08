@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TGZ677I+auQNeVTWIj7DLp04FoFJdKHA4ydwRX4OYvFZGJSnA+txjBBn1jAdCxbsZ8e4vkm+NiHZzsb0Ls5vLQ==",
+  "dgSpecHash": "bDifhWRb8zXOiG/Mo9d9Mq1URa27nXSeZ+jP7iNlmTnK78sGWrdDUCrzbHPaSqoXb+wm1McsTZmwVV0FEip71A==",
   "success": true,
   "projectFilePath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\h.sabour\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\h.sabour\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
