@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9BZ99bmQaHOJPHhhG24l5VgU0N6Sncuenp1TYkNzfF50+nqn8f42lpQJZF4puSs3+eEUDUagXC7Qmg7oLYg0BA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\h.sabour\\Documents\\RiderProjects\\StudentsGrades\\StudentsGrades\\StudentsGrades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\h.sabour\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\h.sabour\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
