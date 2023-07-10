@@ -160,11 +160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
+      "projectUniqueName": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Students Grades\\StudentsGradesProj.csproj",
       "projectName": "StudentsGradesProj",
-      "projectPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\StudentsGradesProj.csproj",
+      "projectPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Students Grades\\StudentsGradesProj.csproj",
       "packagesPath": "C:\\Users\\h.sabour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h.sabour\\Documents\\VScode\\C#\\StudentsGradesProj\\obj\\",
+      "outputPath": "c:\\Users\\h.sabour\\Documents\\VScode\\C#\\Star-Academy\\Students Grades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\h.sabour\\AppData\\Roaming\\NuGet\\NuGet.Config",
