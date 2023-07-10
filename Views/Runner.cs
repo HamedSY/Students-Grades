@@ -3,28 +3,29 @@ using StudentsGrades.Services;
 
 namespace StudentsGrades.Views;
 
-public class Runner
+public class Runner : IRunner
 {
     private const int TopI = 3; // change this if you want to see the top i students
 
     private readonly ICalculator _calculator;
-    private readonly IJsonReader<Student> _studentJsonReader;
-    private readonly IJsonReader<Grade> _gradeJsonReader;
+    private readonly IJsonReader _jsonReader;
     private readonly IPrinter _printer;
 
-    public Runner(ICalculator calculator, IJsonReader<Student> studentJsonReader,
-        IJsonReader<Grade> gradeJsonReader, IPrinter printer)
+    public Runner(ICalculator calculator, IJsonReader jsonReader, IPrinter printer)
     {
         _calculator = calculator;
-        _studentJsonReader = studentJsonReader;
-        _gradeJsonReader = gradeJsonReader;
+        _jsonReader = jsonReader;
         _printer = printer;
     }
 
     public void Run()
     {
-        var students = _studentJsonReader.ReadJsonData(@"C:\Users\h.sabour\Documents\RiderProjects\StudentsGrades\StudentsGrades\students.json");
-        var grades = _gradeJsonReader.ReadJsonData(@"C:\Users\h.sabour\Documents\RiderProjects\StudentsGrades\StudentsGrades\grades.json");
+        var students =
+            _jsonReader.ReadJsonData<Student>(
+                @"C:\Users\h.sabour\Documents\RiderProjects\StudentsGrades\StudentsGrades\students.json");
+        var grades =
+            _jsonReader.ReadJsonData<Grade>(
+                @"C:\Users\h.sabour\Documents\RiderProjects\StudentsGrades\StudentsGrades\grades.json");
         var averages = _calculator.CalculateAverages(students, grades);
         _printer.PrintTopIStudents(students, averages, TopI);
     }

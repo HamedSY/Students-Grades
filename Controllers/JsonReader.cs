@@ -3,9 +3,9 @@ using StudentsGrades.Services;
 
 namespace StudentsGrades.Controllers;
 
-public class JsonReader<T> : IJsonReader<T>
+public class JsonReader : IJsonReader
 {
-    public List<T> ReadJsonData(string fileName)
+    public List<T> ReadJsonData<T>(string fileName)
     {
         return JsonSerializer.Deserialize<List<T>>(File.ReadAllText(fileName));
     }
